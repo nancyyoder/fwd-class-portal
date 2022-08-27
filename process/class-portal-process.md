@@ -6,3 +6,7 @@ My class portal will use color blocking for its organization. The colors I picke
 
 ![Colors I am using for the site](colors.png)
 
+![Web home page wireframe](web-home-page.png)
+
+![Mobile home page wireframe](mobile-home-page.png)
+
