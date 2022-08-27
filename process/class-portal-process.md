@@ -4,3 +4,5 @@ For my class portal, I was inspired by a wireframe I created for a hand coded po
 
 My class portal will use color blocking for its organization. The colors I picked are cheery yet slightly muted, making them subtle and not too overbearing in my design. As a designer, I think color blocking is a great option for organization because it can look professional but it is also fun and showcases color. Additionally, this organization adapts well between mobile and web application, because the blocks can just be sized up or down depending on the device, they do not need to be rearranged. 
 
+![Colors I am using for the site](colors.png)
+
