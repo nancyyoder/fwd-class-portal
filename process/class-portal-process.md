@@ -12,9 +12,11 @@ The designs shown below are wireframes I created on Figma to showcase the home p
 
 ![Web home page wireframe](web-home-page.png)
 
-For the mobile application home page, it is similar to the web application, but I took out the nav bar. I am going to see if a back button system will work here, but if not, I will add a hamburger menu in the top right corner for navigation. Starting at the top, we have my logo, the class title, and then the buttons for the different pages, which are laid out vertically. The same footer is at the bottom. 
+For the mobile application home page, it is similar to the web application, but I took out the nav bar. Starting at the top, we have my logo, the class title, and then the buttons for the different pages, which are laid out vertically. The same footer is at the bottom. 
 
 ![Mobile home page wireframe](mobile-home-page.png)
+
+The architecture of my site is pretty simple. The home page will link to the other 4 pages: labs, projects, process, and code. On the web application users can navigate via the nav bar and can get back to the home page by clicking my logo. For the mobile application, since I removed the nav bar for aesthetic reasons, I am going to see if a back button system will work here. Meaning that the user can click on a page and exit it through a back button that will bring them to the home page. For there they can click to a different page. If this plan is clunky in practice, I will supplement a nav bar with a hamburger menu in the top right corner for navigation purposes. 
 
 In order to make this wireframe, I created a frame that is the size of a phone screen, and then copied everything over from the web application, sizing it down as needed. In full transparency, I have never designed the front end of a website to be responsive based on-screen size, so I am slightly nervous to see if my plan will work. However, I am more than willing to adapt my design as necessary in order to make sure it works on all screen sizes. That being said, I am excited to continue learning in the second phase of this project and class!
 
