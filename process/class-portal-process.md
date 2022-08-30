@@ -16,7 +16,7 @@ For the mobile application home page, it is similar to the web application, but 
 
 ![Mobile home page wireframe](mobile-home-page.png)
 
-In order to make this wireframe, I created a frame that is the size of a phone screen, and then copied everything over from the web application, sizing it down as needed. In full transparency, I have never designed the front end of a website to be responsive based on-screen size, so I am slightly nervous to see if my plan will work. However, I am more than willing to adapt my design as I necessary in order to make sure it works on all screen sizes. That being said, I am excited to continue learning in the second phase of this project and class!
+In order to make this wireframe, I created a frame that is the size of a phone screen, and then copied everything over from the web application, sizing it down as needed. In full transparency, I have never designed the front end of a website to be responsive based on-screen size, so I am slightly nervous to see if my plan will work. However, I am more than willing to adapt my design as necessary in order to make sure it works on all screen sizes. That being said, I am excited to continue learning in the second phase of this project and class!
 
 # Class Portal, Milestone 2 Process
 
