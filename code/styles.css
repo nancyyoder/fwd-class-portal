@@ -12,30 +12,74 @@
     /* align-items: stretch;
     padding: 10px; */
     flex: 1 100%;
+    margin-right: 45px;
+    margin-left: 45px;
 }
 
 .logo{
-    margin: 10px;
-    background-color: blanchedalmond;
-    padding: 10px;
-    flex: 1 1 50%;
+    /* background-color: blanchedalmond; */
+    flex: 1 1 60%;
+    margin-right: 10px;
+    font-size: 4em;
+    text-align: left;
+    font-family: 'Bebas Neue';
 }
 
 .nav{
-    margin: 10px;
-    background-color: blanchedalmond;
-    padding: 10px;
+    /* background-color: blanchedalmond; */
     flex: 1 100%;
+    margin-left: 10px;
+    text-align: right;
 }
 
+li {
+    font-size: 3em;
+    margin-right: 30px;
+    font-family: 'Bebas Neue';
+    display: inline;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:#635e5e;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+
+
 .title{
-    margin: 10px;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     background-color: #F5CAC3;
-    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 30px;
+    padding-right: 20px;
     flex: 1 100%;
     text-align: left; 
     justify-content: left;
+    font-size: 2.5em;
+    color: white;
+}
+
+.ATLS{
+    font-size: 1.8em;
 }
 
 .row{
@@ -43,31 +87,57 @@
     align-items: stretch;
     /* padding: 10px; */
     flex: 1 100%;
+    height: auto;
+    margin-right: 45px;
+    margin-left: 45px;
+    /* background-color: blue; */
 }
 
 .box-1{
-    margin: 10px;
+    /* margin: 45px; */
+    margin-top:10px;
     background-color: #84A59D;
-    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     flex: 1 1 50%;
+    font-size: 2.5em;
+    margin-right: 10px;
+    color: black;
 }
 
 .box-2{
-    margin: 10px;
+    /* margin: 45px; */
+    margin-top: 10px;
     background-color: #F8CF8B;
-    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     flex: 1 1 50%;
+    font-size: 2.5em;
+    margin-left:10px;
+    color: black; 
 }
 
 .footer{
-    margin: 10px;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
     background-color: #F28482;
-    padding: 10px;
+    padding: 30px;
     flex: 1 1 100px;
+    font-size: 2em;
+    color: white;
 }
 
 @media (max-width: 800px) {
     .row {
       flex-direction: column;
+    }
+    .box-1{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .box-2{
+        margin-left: 0px;
+        margin-top: 10px;
     }
   }
