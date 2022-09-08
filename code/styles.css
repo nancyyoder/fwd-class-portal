@@ -18,9 +18,10 @@
 
 .logo{
     /* background-color: blanchedalmond; */
-    flex: 1 1 60%;
+    flex: 1 1 70%;
     margin-right: 10px;
     font-size: 4em;
+    /* font-size: 4vw; */
     text-align: left;
     font-family: 'Bebas Neue';
 }
@@ -37,6 +38,14 @@ li {
     margin-right: 30px;
     font-family: 'Bebas Neue';
     display: inline;
+  }
+
+  #assign{
+    color: white;
+  }
+
+  #assign:hover{
+    color:#dddddd;
   }
 
   a:link {
@@ -82,6 +91,10 @@ li {
     font-size: 1.8em;
 }
 
+.fwd{
+  font-size: 2em;
+}
+
 .row{
     display: flex;
     align-items: stretch;
@@ -102,7 +115,8 @@ li {
     flex: 1 1 50%;
     font-size: 2.5em;
     margin-right: 10px;
-    color: black;
+    color: white;
+    margin-bottom:10px;
 }
 
 .box-2{
@@ -115,12 +129,58 @@ li {
     font-size: 2.5em;
     margin-left:10px;
     color: black; 
+    margin-bottom:10px;
+}
+
+.box-3{
+  margin-top: 10px;
+  background-color: #F8CF8B;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  flex: 1 1 50%;
+  font-size: 2.5em;
+  margin-right: 10px;
+  color: black; 
+  margin-bottom:10px;
+}
+
+
+.box-4{
+  /* margin: 45px; */
+  margin-top:10px;
+  background-color: #84A59D;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex: 1 1 50%;
+  font-size: 2.5em;
+  margin-right: 10px;
+  color: white;
+  margin-bottom:10px;
+}
+
+.assign-head{
+  /* background-color: blue; */
+  margin-top:15px;
+  margin-bottom:30px;
+  padding:0px;
+}
+
+.g-hub{
+
+  margin-right: 15px;
+
+}
+
+.web-site{
+  margin-left: 15px;
+
 }
 
 .footer{
     margin-top: 20px;
     margin-left: 45px;
     margin-right: 45px;
+    margin-bottom: 20px;
     background-color: #F28482;
     padding: 30px;
     flex: 1 1 100px;
@@ -128,16 +188,50 @@ li {
     color: white;
 }
 
-@media (max-width: 800px) {
+#check-out{
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+@media (max-width: 900px) {
     .row {
       flex-direction: column;
     }
     .box-1{
+        font-size: 2em;
         margin-right: 0px;
         margin-bottom: 10px;
     }
     .box-2{
+        font-size: 2em;
         margin-left: 0px;
         margin-top: 10px;
+    }
+    .box-3{
+      margin-right: 0px;
+      font-size:2em;
+    }
+
+    .box-4{
+      font-size:2em;
+      margin-left: 0px;
+    }
+    .logo{
+      font-size: 2em;
+    }
+
+    li{
+      font-size: 1em;
+    }
+
+    .ATLS{
+      font-size: 1.5em;
+    }
+    .fwd{
+      font-size: 0.8em;
+    }
+
+    #check-out{
+      font-size: 0.8em;
     }
   }
