@@ -47,3 +47,4 @@ The finishing touches were just moving the screen size around a lot and making s
 From this project I revamped my front-end web knowledge and skills. This project also taught me that I don’t need to be a perfectionist about everything. There are certain elements of this project that I wanted to make more perfect, but I wasn’t able to, and that’s okay because I really like how it turned out.
 
 Check out my final class portal here:
+https://nancyyoder.github.io/fwd-class-portal/
